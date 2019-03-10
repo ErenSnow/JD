@@ -1,0 +1,51 @@
+/** 版心 **/
+.w {
+  width: 1190px;
+  margin: auto;
+}
+.fr {
+  float: right;
+}
+.fl{
+  float: left;
+}
+
+@font-face {
+  font-family: "icomoon";
+  src:  url('../fonts/icomoon.eot?snsrp8');
+  src:  url('../fonts/icomoon.eot?snsrp8#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?snsrp8') format('truetype'),
+    url('../fonts/icomoon.woff?snsrp8') format('woff'),
+    url('../fonts/icomoon.svg?snsrp8#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* 京东 顶部 start */
+.J_event {
+  height: 80px;
+  background-color: #FCB4FE;
+}
+
+.J_event a {
+  display: block;
+  height: 80px;
+  background: url(../images/top.jpg);
+  position: relative;
+}
+
+.J_event a i {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  right: 0;
+  top: 5px;
+  font-family: "icomoon";
+  font-style: normal;
+  text-align: center;
+  line-height: 20px;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+/* 京东 顶部 end */
