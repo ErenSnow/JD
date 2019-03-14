@@ -45,6 +45,10 @@ input, button {
   border: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* 京东 顶部 start */
 .J_event {
   height: 80px;
@@ -156,6 +160,7 @@ input, button {
   position: relative;
 }
 
+/* Logo 模块 */
 .logo {
   width: 190px;
   height: 170px;
@@ -178,6 +183,7 @@ input, button {
   overflow: hidden;
 }
 
+/* 搜索模块 */
 .search {
   width: 550px;
   height: 35px;
@@ -226,4 +232,76 @@ input, button {
 
 .search em:hover {
   background-position: -30px 0;
+}
+
+/* 热词模块 */
+.hotwords {
+  overflow: hidden;
+  position: absolute;
+  top: 65px;
+  left: 320px;
+  width: 555px;
+  height: 20px;
+  line-height: 20px;
+}
+
+.hotwords a {
+  float: left;
+  margin-right: 10px;
+  color: #999;
+  font-size: 12px;
+}
+
+.hotwords a:hover {
+  color: #F10215;
+}
+
+/* 购物车模块 */
+.car {
+  width: 188px;
+  height: 33px;
+  border: 1px solid #ccc;
+  position: absolute;
+  top: 25px;
+  right: 99px;
+  text-align: center;
+  line-height: 33px;
+  background-color: #FFF;
+}
+
+.car i {
+  font-family: "icomoon";
+  font-style: normal;
+  color: #F10215;
+  font-size: 16px;
+  margin-right: 3px;
+}
+
+.car s {
+  position: absolute;
+  top: 5px;
+  left: 140px;
+  text-decoration: none;
+  background-color: #f10215;
+  height: 16px;
+  line-height: 16px;
+  font-size: 12px;
+  padding: 0 3px;
+  border-radius: 7px;
+  color: #fff;
+}
+
+.car a {
+  color: #F10215;
+  font-size: 12px;
+}
+
+/* 电脑部分 */
+.computer a {
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+  width: 190px;
+  height: 40px;
+  background: url(../images/computer.jpg);
 }
