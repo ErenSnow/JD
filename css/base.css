@@ -25,6 +25,17 @@ ul {
   padding: 0;
 }
 
+.clearfix:before,.clearfix:after {
+  content:"";
+  display: table;  /* 这句话可以出发BFC BFC可以清除浮动,BFC我们后面讲 */
+}
+.clearfix:after {
+ clear:both;
+}
+.clearfix {
+  *zoom:1;
+}
+
 @font-face {
   font-family: "icomoon";
   src: url('../fonts/icomoon.eot?snsrp8');
@@ -47,6 +58,10 @@ input, button {
 
 a {
   text-decoration: none;
+}
+
+h1,h5,p {
+  margin: 0;
 }
 
 /* 京东 顶部 start */
@@ -156,7 +171,6 @@ a {
 
 .inner {
   height: 140px;
-  background-color: pink;
   position: relative;
 }
 
@@ -304,4 +318,88 @@ a {
   width: 190px;
   height: 40px;
   background: url(../images/computer.jpg);
+}
+
+/* 导航栏信息 */
+.navitems {
+  position: absolute;
+  left: 200px;
+  bottom: 0;
+}
+
+.navitems ul {
+  float: left;
+}
+
+.navitems ul li {
+  float: left;
+  margin-left: 30px;
+}
+
+.navitems li a {
+  color: #555A5F;
+  font-size: 16px;
+  font-weight: 700;
+  height: 40px;
+  line-height: 40px;
+  display: block;
+}
+
+.navitems li a:hover {
+  color: #F10215;
+}
+
+.navitems .spacer {
+  float: left;
+  margin: 15px -10px 0 20px;
+}
+
+
+/* Footer 部分开始 */
+.footer {
+  height: 560px;
+  background-color: #EAEAEA;
+}
+
+.footer-service {
+  border-bottom: 1px solid #DEDEDE;
+}
+
+.footer-service-inner {
+  padding: 30px 0;
+}
+
+.footer-service-inner li {
+  float: left;
+  width: 297px;
+  height: 42px;
+}
+
+.service-unit {
+  width: 225px;
+  height: 42px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.service-unit h5 {
+  width: 36px;
+  height: 43px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: url(../images/ico_service.png);
+  text-indent: -999px;
+  overflow: hidden;
+}
+
+.service-unit p {
+  line-height: 42px;
+  margin-left: 45px;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.kuai {
+  background-position: 0 -43px
 }
