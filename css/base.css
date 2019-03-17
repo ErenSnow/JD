@@ -25,15 +25,19 @@ ul {
   padding: 0;
 }
 
-.clearfix:before,.clearfix:after {
-  content:"";
-  display: table;  /* 这句话可以出发BFC BFC可以清除浮动,BFC我们后面讲 */
+/* 清除浮动 */
+.clearfix:before, .clearfix:after {
+  content: "";
+  display: table;
+  /* 这句话可以出发BFC BFC可以清除浮动,BFC我们后面讲 */
 }
+
 .clearfix:after {
- clear:both;
+  clear: both;
 }
+
 .clearfix {
-  *zoom:1;
+  *zoom: 1;
 }
 
 @font-face {
@@ -60,8 +64,9 @@ a {
   text-decoration: none;
 }
 
-h1,h5,p {
+* {
   margin: 0;
+  padding: 0;
 }
 
 /* 京东 顶部 start */
@@ -354,7 +359,6 @@ h1,h5,p {
   margin: 15px -10px 0 20px;
 }
 
-
 /* Footer 部分开始 */
 .footer {
   height: 560px;
@@ -388,7 +392,7 @@ h1,h5,p {
   position: absolute;
   top: 0;
   left: 0;
-  background: url(../images/ico_service.png);
+  background: url(../images/ico_service.png) no-repeat;
   text-indent: -999px;
   overflow: hidden;
 }
@@ -400,6 +404,71 @@ h1,h5,p {
   font-weight: 700;
 }
 
-.kuai {
-  background-position: 0 -43px
+.service-unit .kuai {
+  background-position: 0 -44px;
+}
+
+.service-unit .hao {
+  background-position: 0 -86px;
+}
+
+.service-unit .sheng {
+  background-position: 0 -128px;
+}
+
+.help {
+  height: 180px;
+  padding: 20px;
+}
+
+.help dl {
+  float: left;
+  width: 195px;
+}
+
+.help dt {
+  font-size: 14px;
+  font-weight: 700;
+  color: #666;
+  height: 30px;
+}
+
+.help dd {
+  height: 22px;
+}
+
+.help dd a {
+  color: #727272;
+  font-size: 12px;
+}
+
+.help dd a:hover {
+  color: #F10215;
+}
+
+.help .cover {
+  float: right;
+  width: 207px;
+  height: 150px;
+  background-color: purple;
+  background: url(../images/ico_footer.png) no-repeat;
+}
+
+.cover dt {
+  text-align: center;
+}
+
+.help .info {
+  width: 175px;
+  height: 50px;
+  font-size: 12px;
+  margin-top: 5px;
+  margin-left: 10px;
+  line-height: 18px;
+  	color: #727272;
+}
+
+.more {
+  text-align: right;
+  padding-right: 10px;
 }
