@@ -465,10 +465,76 @@ a {
   margin-top: 5px;
   margin-left: 10px;
   line-height: 18px;
-  	color: #727272;
+  color: #727272;
 }
 
 .more {
   text-align: right;
   padding-right: 10px;
+}
+
+/* 版权模块 */
+.copyright {
+  border-top: 1px solid #CCC;
+  padding-top: 15px;
+}
+
+.links {
+  text-align: center;
+}
+
+.links a {
+  color: #727272;
+  font-size: 12px;
+}
+
+.links a:hover {
+  color: #F10215;
+}
+
+.links span {
+  font-size: 12px;
+  color: #D4D4D4;
+  margin: 0 8px;
+}
+
+.c-info {
+  font-size: 12px;
+  color: #9E9E9B;
+  text-align: center;
+  line-height: 20px;
+  margin-top: 10px;
+}
+
+.pic {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.pic a {
+  width: 103px;
+  height: 32px;
+  display: inline-block;
+  margin: 0 3px;
+  background: url(../images/ico_footer.png) no-repeat 0 -151px;
+}
+
+.pic .kexin {
+  background-position: -104px -151px;
+}
+
+.pic .jingcha {
+  background-position: 0 -185px;
+}
+
+.pic .chengxin {
+  background-position: -104px -185px;
+}
+
+.pic .jubao {
+  background-position: -0px -217px;
+}
+
+.pic .xiazai {
+  background-position: -104px -217px;
 }
