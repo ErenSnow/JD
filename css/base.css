@@ -64,6 +64,12 @@ a {
   text-decoration: none;
 }
 
+img {
+  /* 把元素的顶端与行中最高元素的顶端对齐 */
+  /* 去除图片底侧缝隙 图片和文字的基线对齐 */
+  vertical-align: top;
+}
+
 * {
   margin: 0;
   padding: 0;
