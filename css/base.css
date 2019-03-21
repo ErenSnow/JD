@@ -219,13 +219,14 @@ img {
 
 .search input {
   padding-left: 5px;
-  width: 493px;
+  width: 463px;
   height: 33px;
   border: 1px solid #F10215;
   /* 取消蓝色边框 */
   outline: none;
   color: #989898;
   float: left;
+  padding-right: 30px;
 }
 
 .search button {
