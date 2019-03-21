@@ -144,3 +144,20 @@
   background-color: yellow;
   float: right;
 }
+
+.user {
+  height: 115px;
+  background-color: pink;
+}
+
+.news {
+  height: 154px;
+  background-color: purple;
+  border-top: 1px solid #CCC;
+}
+
+.jd-service {
+  height: 210px;
+  background-color: skyblue;
+  border-top: 1px solid #CCC;
+}
